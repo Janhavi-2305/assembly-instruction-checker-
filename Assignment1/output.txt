@@ -1,0 +1,52 @@
+Program Name		Description
+--------------------------------------------------------------------
+ Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.c : om>
+ outcoff.c           : output routines for the Netwide Assembler to produce
+ outlib.c            : 
+ outas86.c           : output routines for the Netwide Assembler to produce
+ outdbg.c            : output routines for the Netwide Assembler to produce
+ codeview.c          : Codeview Debug Format support for COFF
+ outform.c           : manages a list of output formats, and associates
+ outobj.c            : output routines for the Netwide Assembler to produce
+ outbin.c            : output routines for the Netwide Assembler to produce
+ outmacho.c          : output routines for the Netwide Assembler to produce
+ outaout.c           : output routines for the Netwide Assembler to produce
+ outieee.c           : output routines for the Netwide Assembler to produce
+    gcc -o aouttest aouttest.c : aouttest.o
+    gcc -o cofftest cofftest.c : cofftest.o
+    gcc -o elftest elftest.c : elftest.o
+    cl /AL objtest.obj objlink.c : 
+	gcc -o elf64so elftest64.c : ./elf64so.so
+ hashtbl.c           : 
+ nasmlib.c           : library routines for the Netwide Assembler
+ nasmlib.c           : library routines for the Netwide Assembler
+ rbtree.c            : 
+ strlist.c           : - list of ordered strings, optionally made unique
+ nasmlib.c           : library routines for the Netwide Assembler
+ nasmlib.c           : library routines for the Netwide Assembler
+ nasmlib.c           : library routines for the Netwide Assembler
+ path.c              : - host operating system specific pathname manipulation functions
+ realpath.c          : As system-independent as possible implementation of realpath()
+ omfdump.c           : 
+ sync.c              : the Netwide Disassembler synchronisation processing module
+ disasm.c            : where all the _work_ gets done in the Netwide Disassembler
+ ndisasm.c           : the Netwide Disassembler main module
+ diserror.c          : - stubs for the error functions for the disassembler
+ preproc.c           : macro preprocessor for the Netwide Assembler
+ eval.c              : expression evaluator for the Netwide Assembler
+ assemble.c          : code generation for the Netwide Assembler
+ srcfile.c           : - keep track of the current position in the input stream.
+ error.c             : - error message handling routines for the assembler
+ float.c             : floating-point constant support for the Netwide Assembler
+ strfunc.c           : 
+ exprdump.c          : 
+ parser.c            : source line parser for the Netwide Assembler
+ Standard scanner routine used by parser.c : and some output
+ labels.c            : label handling for the Netwide Assembler
+ listing.c           : listing file generator for the Netwide Assembler
+ quote.c             : 
+ exprlib.c           : 
+ rdstrnum.c          : 
+ nasmlib.c           : library routines for the Netwide Assembler
+ common.c            : - code common to nasm and ndisasm
+   needed, make inffast.c : even faster, implement gzip decoding, and to
